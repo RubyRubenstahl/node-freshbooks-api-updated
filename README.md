@@ -5,7 +5,7 @@ A node.js wrapper for the FreshBooks API.
 
 ### Installation
 
-    npm install freshbooks-api
+    npm install freshbooks-api-updated
 
 
 ### tl;dr
@@ -24,7 +24,7 @@ A node.js wrapper for the FreshBooks API.
 
 Get all invoices for the user:
 ```javascript
-var FreshBooks = require('freshbooks-api');
+var FreshBooks = require('freshbooks-api-updated');
 var freshbooks = new FreshBooks('USER_URL', 'USER_TOKEN');
 
 freshbooks.estimate.list(function(error, estimates) {
@@ -76,13 +76,13 @@ http://developers.freshbooks.com/authentication-2/
 
 Authenticating is easy. Pass in strings with the user's API URL and token when creating a client:
 ```javascript
-var FreshBooks = require('freshbooks-api');
+var FreshBooks = require('freshbooks-api-updated');
 var freshbooks = new FreshBooks('USER_URL', 'USER_TOKEN');
 ```
 
 Change the token at any time. Note that this will affect & auto-update the token for any "sub-services" (for clients, time entries, etc.) accessed via this client instance:
 ```javascript
-var FreshBooks = require('freshbooks-api');
+var FreshBooks = require('freshbooks-api-updated');
 var freshbooks = new FreshBooks();
 
 /* stuff happens... */
