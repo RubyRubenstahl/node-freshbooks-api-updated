@@ -1,12 +1,7 @@
-freshbooks-api
+freshbooks-api-updated
 ==============
 
-[![Dependency Status](http://img.shields.io/david/hashdog/node-freshbooks-api.svg?style=flat-square)](https://david-dm.org/hashdog/node-freshbooks-api)
-
 A node.js wrapper for the FreshBooks API.
-
-The author of https://github.com/prattsj/freshbooksjs has not maintain module for a long time (since Apr 2014). Some important fixes has been sent and we need that.
-
 
 ### Installation
 
@@ -121,7 +116,7 @@ http://developers.freshbooks.com/
 
 ### License (MIT)
 
-Copyright (c) 2014 Sabra Pratt &lt;pratt.sabra@gmail.com&gt;
+Copyright (c) 2018 Sean McGee &lt;sean@iluminere.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
